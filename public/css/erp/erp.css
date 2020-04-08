@@ -1,0 +1,32 @@
+.topo{
+  height: 40vh;
+}
+.card-custom{
+  display: flex;
+  min-width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  max-width: 300px;
+  margin: 15px;
+  margin-left: 0;   
+}
+.card-custom li{
+  size: 2.5rem;
+}
+.card-custom:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(99, 88, 88, 0.5));
+}
+.flex{
+ display: flex;
+ justify-content: center;
+ flex:1;
+ margin-left: 0;  
+}
+.titulos{
+  color: #120650;
+  font-size: 2.5rem;
+}
+.fundoGelo{
+  background-color: #eee;
+}

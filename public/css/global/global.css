@@ -1,0 +1,92 @@
+h2{
+  font-size: 2.5rem;
+}
+
+.custom{
+  size: 15px;
+}
+
+.footer{
+  background-color: #eee;
+}
+.card-custom{
+  min-width: 250px;
+  margin-left: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right: 0px;
+  max-width: 350px;
+
+}
+.card-custom:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(99, 88, 88, 0.5));
+}
+
+.section{
+  padding-bottom: 25px;
+  padding-top: 25px;
+  
+}
+.texto-custom{
+  text-align:left ;
+}
+.imgProd{
+  width: 100%;
+
+}
+.text-black{
+  color: black;
+}
+.text-red{
+  color:red;
+}
+.text-blue{
+  color: #120650;
+}
+.fa{
+  font-size:  1.25rem;
+}
+.formHome{
+  padding-left: 15px;
+  padding-top: 35px;
+}
+.buttonHome{
+  width: 100%;
+  background-color: blue;
+}
+.faleConosco{
+
+}
+.fundoGelo{
+  background-color: #eee;
+}
+.fundoBranco{
+  background-color: #fff;
+}
+.titulos{
+  color: #120650;
+  font-size: 2.5rem;
+}
+label{
+}
+.textoBase{
+  color: #77788fd1;
+}
+.cardHome{
+  display: flex;
+  justify-content: space-around;
+}
+.contato{
+  padding: 0 0 0;
+}
+.contatoCustom{
+padding-top: 40px;
+}
+.info p {
+  color:  #120650;
+}
+.form-control {
+  /* RETIRAR AS BORDAS DO INPUT*/
+  border: 0;;
+}
