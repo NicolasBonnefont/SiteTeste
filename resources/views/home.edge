@@ -22,6 +22,7 @@
 @include('navbar/nav')
 <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css" rel="stylesheet">
 <link href="./css/global/global.css" rel="stylesheet" />
+
 <body class="index-page sidebar-collapse">
   <!--importação do menu-->
 
@@ -40,7 +41,7 @@
     </div>
   </div>
   <div class="main main-raised ">
-    
+
     <div class="section section-white container">
       <h2 class=" text-center title">Nossas soluções </h2>
       <div class="row text-center cardHome">
@@ -84,7 +85,6 @@
         </a>
       </div>
       <br>
-
     </div>
 
     <div class="section  fundoGelo">
@@ -113,18 +113,28 @@
                 <h2 class="textoBase">Conhecimento</h2>
               </li><br>
             </ul>
-          </div>  
+          </div>
         </div>
       </div>
     </div>
-<br>
-
-
-
-
-
-
-<br>
+    <br>
+    <div class="section container ">
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Com profissionais muito experientes e apaixonados por Tecnologia, 
+            de perfis multidisciplinar, certificados com vivência de mercado em 
+            análise de negócio, desenvolvimento de software, projetos, e outras 
+            áreas ligadas a TI e Gestão. Nossa capacitação técnica é perfeitamente
+             adaptada ao nosso parceiro com uma base fundada numa comunicação onde
+              nossa equipe e os usuários falam a mesma linguagem.
+          </h3>
+        </div>
+        <div class="col-sm-6">
+          <img class="imgProd " src="./img/profissionais.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <br>
     <div class="container section section-contato" id="contato">
       <h2 class="title">Envie-nos uma mensagem</h2>
       <div class="row">
@@ -149,7 +159,7 @@
               <textarea class="form-control" rows="4" id="texto"></textarea>
             </div>
             <div class="submit text-center">
-              <input type="submit"  class="btn btn-primary btn-raised btn-round" value="Enviar">
+              <a type="submit" class="btn btn-primary btn-round">Enviar <i class="fa fa-paper-plane"></i></a>
             </div>
           </form>
         </div>
@@ -161,7 +171,7 @@
             <div class="description">
               <h4 class="info-title">Encontre-nos no escritório</h4>
               <p> Rua 19 de Novembro, 52<br>
-                Centro, Diadema SP<br>09912-140                
+                Centro, Diadema SP<br>09912-140
               </p>
             </div>
           </div>
@@ -171,8 +181,10 @@
             </div>
             <div class="description">
               <h4 class="info-title">Telefones</h4>
-              <a class="text-blue" href="tel:+551140441008">(11) 4044-1008</a> / <a class="text-blue" href="tel:+551140568491">(11) 4056-8491</a><br>
-              <a class="text-blue"href="tel:+551123753470">(11) 2375-3470</a> / <a class="text-blue" href="tel:+551123753471">(11) 2375-3471</a>              
+              <a class="text-blue" href="tel:+551140441008">(11) 4044-1008</a> / <a class="text-blue"
+                href="tel:+551140568491">(11) 4056-8491</a><br>
+              <a class="text-blue" href="tel:+551123753470">(11) 2375-3470</a> / <a class="text-blue"
+                href="tel:+551123753471">(11) 2375-3471</a>
               </p>
             </div>
           </div>
@@ -182,49 +194,32 @@
             </div>
             <div class="description">
               <h4 class="info-title">E-mails</h4>
-              <a class="text-blue" href="mailto:morinfo@morinfo.com.br" title=""><p class="text-blue"><u>morinfo@morinfo.com.br</u></p></a>
-              <a cclass="text-blue" href="mailto:suporte@morinfo.com.br" title=""><p><u>suporte@morinfo.com.br</u></p></a>
+              <a class="text-blue" href="mailto:morinfo@morinfo.com.br" title="">
+                <p class="text-blue"><u>morinfo@morinfo.com.br</u></p>
+              </a>
+              <a cclass="text-blue" href="mailto:suporte@morinfo.com.br" title="">
+                <p><u>suporte@morinfo.com.br</u></p>
+              </a>
             </div>
-  
-      </div>
-    </div>
-
-
-  </div>
-
-
-    </div>
-<div class="section ">
-    <div class="section container  ">
-      <h2 class="title text-center">Localização</h1>
-      <div class="col-sm-12 ">
-        <iframe class="imgProd"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.671237093635!2d-46.614498085019875!3d-23.687712284620353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448cae0aed29%3A0x10c2bcd9911aeb7c!2sR.+Dezenove+de+Novembro%2C+52+-+Centro%2C+Diadema+-+SP%2C+09912-140!5e0!3m2!1spt-BR!2sbr!4v1561499412264!5m2!1spt-BR!2sbr"
-          width="400" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+          </div>
+        </div>
       </div>
     </div>
   </div>
- 
-
-
-      
   </div>
-
- 
-
-</div>
   @include('footer/footer')
 </body>
 <script src="./js/email/email.js"></script>
 
 <script>
   function scrollToContato() {
-  if ($('.section-contato').length != 0) {
-    $("html, body").animate({
-      scrollTop: $('.section-contato').offset().top
-    }, 1000);
+    if ($('.section-contato').length != 0) {
+      $("html, body").animate({
+        scrollTop: $('.section-contato').offset().top
+      }, 1000);
+    }
   }
-}
+
 </script>
 
 
