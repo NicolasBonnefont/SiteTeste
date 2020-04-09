@@ -12,14 +12,17 @@
 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 <!DOCTYPE html>
-<title>MORINFO</title>
+<html lang="pt-br">
+
+<head>
+  <title>
+    MOR INFO
+  </title>
+</head>
 @include('navbar/nav')
 <link href="./css/global/global.css" rel="stylesheet" />
-
 <body class="index-page sidebar-collapse">
-  <!--importação do menu-->
 
-  <div class="section-top"></div>
   <div class="page-header header-filter" data-parallax="true" style="background-image: url('./img/empresa2.jpg');"
     id="Top">
     <div class="container">
@@ -34,8 +37,10 @@
       </div>
     </div>
   </div>
-  <div class="main main-raised text-center"><br>
-    <h1 class="title"><u>Quem somos:</u></h1><br>
+
+  <div class="main main-raised">
+    <div class="fundoGelo">
+    <h1 class="title text-center"><u>Quem somos:</u></h1><br>
     <div class="section container ">
       <div class="row">
         <div class="col-sm-6">
@@ -58,9 +63,6 @@
           <img class="imgProd" src="./img/principal.jpeg" alt="">
         </div>
       </div>
-  
-
-   
       <div class="row">
         <div class="col-sm-6">
           <img class="imgProd" src="./img/parceiros.jpeg" alt="">
@@ -75,13 +77,21 @@
             a oportunidade de ajudá-los a crescer ano após ano através de dados oferecidos
             pelos diversos sistemas por nós implantados..</h3>
         </div>
+        
       </div>
+     
     </div>
-    <h1 class="text-center"></h1>
+    
+    
   </div>
+  @include('email/email')
 
+</div>
+@include('footer/footer')
+  </div>
+  
 
-  @include('footer/footer')
+  
 </body>
-
+<script src="./js/email/email.js"></script>
 </html>
