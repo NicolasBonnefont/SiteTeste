@@ -30,3 +30,23 @@
 .fundoGelo{
   background-color: #eee;
 }
+.imgProd{
+  width: 100%;
+
+}
+.contato{
+  padding: 0 0 0;
+}
+.contatoCustom{
+padding-top: 40px;
+}
+.info p {
+  color:  #120650;
+}
+.form-control {
+  /* RETIRAR AS BORDAS DO INPUT*/
+  border: 0;;
+}
+.text-blue{
+  color: #120650;
+}
