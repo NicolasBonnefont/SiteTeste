@@ -55,9 +55,6 @@ h2{
   width: 100%;
   background-color: blue;
 }
-.faleConosco{
-
-}
 .fundoGelo{
   background-color: #eee;
 }
@@ -75,6 +72,8 @@ h2{
 .cardHome{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .contato{
   padding: 0 0 0;
