@@ -1,3 +1,7 @@
 .topo{
   height: 40vh;
 }
+.tituloPrincipal{
+  justify-content: center;
+  display: flex;
+}
