@@ -105,3 +105,8 @@ padding-top: 0px;
 html{
   scroll-behavior: smooth;
 }
+.menuSolucoes{
+  display: flex;
+  flex-flow: column;
+  align-items: center
+}
