@@ -10,6 +10,7 @@ Route.on('/MORBI').render('/MORBI')
 Route.on('/MORTEMP').render('/MORTEMP')
 Route.on('/orcamentos').render('/orcamentos')
 Route.on('/PedidoDeVendas').render('/PedidoDeVendas')
+Route.on('/NFe').render('/NFe')
 
 
 
