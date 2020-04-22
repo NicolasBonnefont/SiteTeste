@@ -26,13 +26,15 @@ h2{
 .section{
   padding-bottom: 25px;
   padding-top: 25px;
-  
+
 }
 .texto-custom{
-  text-align:left ;
+  text-align:left;
+  font-size: 12px;
 }
 .imgProd{
   width: 100%;
+  border-radius: 25px;
 
 }
 .text-black{
