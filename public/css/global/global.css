@@ -35,6 +35,9 @@ h2{
 .imgProd{
   width: 100%;
   border-radius: 25px;
+  border: 1px;
+  border-style: solid;
+  border-color: #120650;
 
 }
 .text-black{
