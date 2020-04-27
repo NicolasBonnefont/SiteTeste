@@ -13,6 +13,7 @@ Route.on('/PedidoDeVendas').render('/PedidoDeVendas')
 Route.on('/NFe').render('/NFe')
 Route.on('/RelatorioFaturamento').render('/RelatorioFaturamento')
 Route.on('/contasapagar').render('/contasapagar')
+Route.on('/contasareceber').render('/contasareceber')
 
 
 
