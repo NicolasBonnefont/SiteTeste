@@ -2,7 +2,8 @@
 @include('navbar/nav')
 <link href="./css/global/global.css" rel="stylesheet" />
 <link href="./css/erp/erp.css" rel="stylesheet" />
-<div class="page-header header-filter topo" data-parallax="true" style="background-image: url('./img/erp.jpeg');" id="Top">
+<div class="page-header header-filter topo" data-parallax="true" style="background-image: url('./img/erp.jpeg');"
+  id="Top">
   <div class="container tex-center">
     <div class="text-center">
       <div class="card card-custom">
@@ -16,256 +17,259 @@
 
 <div class="main main-raised ">
   <div class="section fundoGelo"><br>
-    <div class="text-center">
-      <img src="/img/erp.png" class="img-fluid">
-    </div>
-      <br>
 
-      <div class="card card-nav-tabs card-plain">
-        <!--- MENU -->
+    <div class="card card-nav-tabs card-plain">
+      <!--- MENU -->
 
-        <div class="card-header card-header-primary menuSolucoes">
-            <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+      <div class="card-header card-header-primary menuSolucoes">
+        <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
 
-            <div class="nav-tabs-navigation">
-                <div class="nav-tabs-wrapper">
-                    <ul class="nav nav-tabs text-center" data-tabs="tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#faturamento" data-toggle="tab">Faturamento / Vendas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#financeiro" data-toggle="tab">Financeiro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#compras" data-toggle="tab">Compras</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
+        <div class="nav-tabs-navigation">
+          <div class="nav-tabs-wrapper">
+            <ul class="nav nav-tabs text-center" data-tabs="tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#faturamento" data-toggle="tab">Faturamento / Vendas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#financeiro" data-toggle="tab">Financeiro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#compras" data-toggle="tab">Compras</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <!--- CONTEUDO -->
-        <div class="card-body  ">
-            <div class="tab-content ">
-                <div class="tab-pane active" id="faturamento">
-                  <h4 class="text-center">Faturamento / Vendas</h4>
-                  <div class="row flex ">
-                    <div class="card col card-custom ">
-                      <a class="text-blue"href="/orcamentos">
-                      <h3 class="text-center">Orçamentos</h3>
-                      <br>
-                      <ul>
-                        <li>Cópia de Orçamentos</li>
-                        <li>Gestão de condição de pagamento (possibilidade de
-                          configurar diferentes percentuais, e prazos na mesma condição de pagamento</li>
-                        <li>Múltiplos percentuais de descontos</li>
-                        <li>Controle de Validade de Orçamento</li>
-                        <li>Cálculos tributários</li>
-                        <li>Histórico de LOGs</li>
-                      </ul>
-                    </a>
-                    </div>
-                    <div class="card col card-custom">
-                      <a class="text-blue"href="/PedidoDeVendas">
-                      <h3 class="text-center">Pedidos de Vendas</h3>
-                      <br>
-                      <ul>
-                        <li>Gestão de condição de pagamento (possibilidade de configurar diferentes percentuais, e prazos na mesma
-                          condição de pagamento)</li>
-                        <li>Múltiplos percentuais de descontos</li>
-                        <li>Controle de Validade de Orçamento</li>
-                        <li>Cálculos tributários</li>
-                        <li>Possibilidade de gerar um Pedido a partir de um Orçamento</li>
-                        <li>Reserva de Estoque </li>
-                        <li>Histórico de LOGs</li>
-                      </ul>
-                    </a>
-                    </div>
-                    <div class="card col card-custom">
-                      <a class="text-blue"href="/NFe">
-                      <h3 class="text-center">Notas Fiscais</h3>
-                      <br>
-                      <ul>
-                        <li>Gestão de condição de pagamento (possibilidade de configurar diferentes percentuais, e prazos na mesma
-                        </li>
-                        <li>Gestão de Formas e Tipos de Cobrança, integração com Contas a Receber</li>
-                        <li>Possibilidade de integração com outros ERPs através do xPed e nItemPed</li>
-                        <li>Envio automático de NF-e por e-mail</li>
-                        <li>Emissão de notas fiscais de exportação</li>
-                        <li>Emissão de notas fiscais de importação</li>
-                        <li>Emissão de Duplicatas</li>
-                        <li>Emissão de Carta de Correção Eletronica</li>
-                        <li>Emissão da Ficha de Conteudo de Importação</li>
-                        <li>Integração com o módulo de estoque</li>
-                        <li>Gestão de comissão de vendedor</li>
-                        <li>Histórico de LOGs</li>
-                      </ul>
-                      </a>
-                    </div>
-                    <div class="card col card-custom">
-                      <a class="text-blue"href="/RelatorioFaturamento">
-                      <h3 class="text-center">Relatórios Gerenciais</h3>
-                      <br>
-                      <ul>
-                        <li>Pedidos de Vendas Pendentes</li>
-                        <li>Pedidos por Data de Entrega</li>
-                        <li>Pedidos por Vendedor e/ou Vendedor Produtos</li>
-                        <li>Pedidos por Cliente e/ou Clientes/Produtos</li>
-                        <li>Faturamento Diário</li>
-                        <li>Faturamento por Cliente/Produto</li>
-                        <li>Faturamento por Produto</li>
-                        <li>Clientes não faturados </li>
-                        <li>Resumo de Faturamento trimestral</li>
-                        <li>Comissão de Vendedores</li>
-                      </ul>
-                      </a>
-                    </div>
+      </div>
 
-
+      <!--- CONTEUDO -->
+      <div class="card-body  ">
+        <div class="tab-content ">
+          <div class="tab-pane active" id="faturamento">
+            <h4 class="text-center">Faturamento / Vendas</h4>
+            <div class="row flex ">
+              <div class="card col card-custom ">
+                <a class="text-blue" href="/orcamentos">
+                  <h3 class="text-center">Orçamentos</h3>
+                  <br>
+                  <ul>
+                    <li>Cópia de Orçamentos</li>
+                    <li>Gestão de condição de pagamento (possibilidade de
+                      configurar diferentes percentuais, e prazos na mesma condição de pagamento</li>
+                    <li>Múltiplos percentuais de descontos</li>
+                    <li>Controle de Validade de Orçamento</li>
+                    <li>Cálculos tributários</li>
+                    <li>Histórico de LOGs</li>
+                  </ul>
+                </a>
               </div>
-                </div>
-                <div class="tab-pane" id="financeiro">
-                  <h4 class="text-center">Financeiro</h4>
-                  <div class="row flex">
-                    <div class="card col  card-custom">
-                      <a class="text-blue"href="/contasapagar">
-                      <h3 class="text-center">Contas a Pagar</h3>
-                      <br>
-                      <ul>
-                        <li>Lançamento de notas fiscais</li>
-                        <li>Lançamentos de notas fiscais por XML</li>
-                        <li>Previsões de documentos a pagar</li>
-                        <li>Baixas por Lote</li>
-                        <li>Gestão de Antecipação de valores pagos</li>
-                        <li>Gestão de devoluções de documentos </li>
-                        <li>Gestão de aprovação de documentos a pagar </li>
-                        <li>Gestão de Centro de Custos</li>
-                        <li>Gestão de Retenção de impostos</li>
-                        <li>Cálculo automático de juros e multas</li>
-                        <li>Histórico de LOGs</li>
-                        <li>Emissão de Cheques</li>
-                      </ul>
-                    </a>
-                    </div>
-                    <div class="card col  card-custom">
-                      <a class="text-blue"href="/contasareceber">
-                      <h3 class="text-center">Contas a Receber</h3>
-                      <br>
-                      <ul>
-                        <li>Lançamentos de Duplicatas (recebimento automático pelo módulo de vendas)</li>
-                        <li>Baixas por Lote</li>
-                        <li>Integração com CNAB</li>
-                        <li>Gestão de antecipação de valores recebidos</li>
-                        <li>Gestão de devoluções de duplicatas </li>
-                        <li>Gestão de aprovação de documentos a receber </li>
-                        <li>Histórico de LOGs</li>
-                      </ul>
-                      </a>
-                    </div>
-                    <div class="card col  card-custom">
-                      <a class="text-blue"href="/RelatorioFinanceiro">
-                      <h3 class="text-center">Relatórios Gerenciais</h3>
-                      <br>
-                      <ul>
-                        <li>Fluxo de Caixa, conciliando os recebimentos e os pagamentos</li>
-                        <li>Relatórios de Documentos Pendentes (por vencimento, por fornecedor, por centro de custo, por tipo de documento)</li>
-                        <li>Relatórios de Documentos Pagos (por data de pagamento, por fornecedor, por centro de custo, por banco)</li>
-                        <li>Relatório verificadora de documentos</li>
-                        <li>Relatórios de Antecipações (contas a pagar e cotnas a receber)</li>
-                        <li>Relatório de Devoluções (contas a pagar e contas a receber)</li>
-                        <li>Diário Auxiliar (contas a pagar e contas a receber)</li>
-                        <li>Relatório de Duplicatas Pendentes (por Vencimento, por Cliente, por Tipo de Cobrança, por Data de Emissão, por Vendedor)</li>
-                        <li>Relatório de Duplicatas Pagos (por data de recebimento, por cliente, por banco)</li>
-                        <li>Relatório verificadora de Duplicatas</li>
-                        <li>Relatório de Frequência de Recebimento</li>
-                        <li>Relatório de duplicatas prorrogadas</li>
-                      </ul>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane" id="compras">
-                  <h4 class="text-center">Compras</h4>
-                  <div class="row flex">
-                    <div class="card col  card-custom">
-                      <a class="text-blue"href="/RequisicaoCompras">
-                      <h3 class="text-center">Requisição de Compras</h3>
-                      <br>
-                      <ul>
-                        <li>Solicitação de Compras por usuário</li>
-                        <li>Follow-up de solicitações de compras (pendentes e já compradas)</li>
-                      </ul>
-                      </a>
-                    </div>
-                    <div class="card col  card-custom">
-                      <a class="text-blue"href="/orcamentos">
-                      <h3 class="text-center">Pedidos de Compras</h3>
-                      <br>
-                      <ul>
-                        <li>Possibilidade de realizar um Pedido a partir de um Orçamento e/ou de uma Requisição de Compra</li>
-                        <li>Controle e gestão de follow-up</li>
-                        <li>Gestão de aprovação de Pedidos de Compra </li>
-                        <li>Cálculos tributários</li>
-                        <li>Histórico de LOGs</li>
-                        <li>Programar diferentes prazos de entregas</li>
-                        <li>Baixa de Pedidos através do XML do Fornecedor</li>
-                        <li>Validação com Tabela de Preços do Fornecedor</li>
-                        <li>Integração com o Contas a Pagar (previsão, e lançamento oficial pós recebimento)</li>
-                        <li>Integração com Estoque de Materiais</li>
-                      </ul>
-                      </a>
-                    </div>
-                    <div class="card col  card-custom">
-                      <a class="text-blue"href="/orcamentos">
-                      <h3 class="text-center">Qualidade</h3>
-                      <br>
-                      <ul>
-                        <li>Inspeção de Recebimento</li>
-                        <li>Amarração de Características/Produtos</li>
-                        <li>Validação das características: valores esperados / valores encontrados</li>
-                        <li>Documentação da Qualidade (possibilidade de armazenar e amarrar ao Recebimento os documentos inerentes a qualidade)</li>
-                        <li>Gestão e controle de aprovação (com possibilidade de aprovar condicional)</li>
-                      </ul>
-                      </a>
-                    </div>
-                    <div class="card col  card-custom">
-                      <a class="text-blue"href="/orcamentos">
-                      <h3 class="text-center">Estoque</h3>
-                      <br>
-                      <ul>
-                        <li>Gestão de Materiais reservados</li>
-                        <li>Gestão de Mínimos e Máximos</li>
-                        <li>Estoque por materiais semelhantes</li>
-                      </ul>
-                      </a>
-                    </div>
-                    <div class="card col  card-custom">
-                      <a class="text-blue"href="/orcamentos">
-                      <h3 class="text-center">Relatórios</h3>
-                      <br>
-                      <ul>
-                        <li>Pedidos pendentes</li>
-                        <li>Pedidos por Centro de Custo</li>
-                        <li>Pedidos por Classificação de Compras</li>
-                        <li>Histórico de Compras por Fornecedor / Produto</li>
-                        <li>Ranking de Fornecedor</li>
-                        <li>Ranking de Produtos Comprados</li>
-                        <li>Média anual de Compras (meses e quantidades compradas)</li>
-                        <li>Histórico de Alterações de Preços (baseados nos LOGs)</li>
-                        <li>Relatório de Posição de Estoque</li>
-                        <li>Relatório de Estoque Mínimo</li>
-                        <li>Registro de Inventário</li>
-                      </ul>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+              <div class="card col card-custom">
+                <a class="text-blue" href="/PedidoDeVendas">
+                  <h3 class="text-center">Pedidos de Vendas</h3>
+                  <br>
+                  <ul>
+                    <li>Gestão de condição de pagamento (possibilidade de configurar diferentes percentuais, e prazos na
+                      mesma
+                      condição de pagamento)</li>
+                    <li>Múltiplos percentuais de descontos</li>
+                    <li>Controle de Validade de Orçamento</li>
+                    <li>Cálculos tributários</li>
+                    <li>Possibilidade de gerar um Pedido a partir de um Orçamento</li>
+                    <li>Reserva de Estoque </li>
+                    <li>Histórico de LOGs</li>
+                  </ul>
+                </a>
+              </div>
+              <div class="card col card-custom">
+                <a class="text-blue" href="/NFe">
+                  <h3 class="text-center">Notas Fiscais</h3>
+                  <br>
+                  <ul>
+                    <li>Gestão de condição de pagamento (possibilidade de configurar diferentes percentuais, e prazos na
+                      mesma
+                    </li>
+                    <li>Gestão de Formas e Tipos de Cobrança, integração com Contas a Receber</li>
+                    <li>Possibilidade de integração com outros ERPs através do xPed e nItemPed</li>
+                    <li>Envio automático de NF-e por e-mail</li>
+                    <li>Emissão de notas fiscais de exportação</li>
+                    <li>Emissão de notas fiscais de importação</li>
+                    <li>Emissão de Duplicatas</li>
+                    <li>Emissão de Carta de Correção Eletronica</li>
+                    <li>Emissão da Ficha de Conteudo de Importação</li>
+                    <li>Integração com o módulo de estoque</li>
+                    <li>Gestão de comissão de vendedor</li>
+                    <li>Histórico de LOGs</li>
+                  </ul>
+                </a>
+              </div>
+              <div class="card col card-custom">
+                <a class="text-blue" href="/RelatorioFaturamento">
+                  <h3 class="text-center">Relatórios Gerenciais</h3>
+                  <br>
+                  <ul>
+                    <li>Pedidos de Vendas Pendentes</li>
+                    <li>Pedidos por Data de Entrega</li>
+                    <li>Pedidos por Vendedor e/ou Vendedor Produtos</li>
+                    <li>Pedidos por Cliente e/ou Clientes/Produtos</li>
+                    <li>Faturamento Diário</li>
+                    <li>Faturamento por Cliente/Produto</li>
+                    <li>Faturamento por Produto</li>
+                    <li>Clientes não faturados </li>
+                    <li>Resumo de Faturamento trimestral</li>
+                    <li>Comissão de Vendedores</li>
+                  </ul>
+                </a>
+              </div>
+
+
             </div>
+          </div>
+          <div class="tab-pane" id="financeiro">
+            <h4 class="text-center">Financeiro</h4>
+            <div class="row flex">
+              <div class="card col  card-custom">
+                <a class="text-blue" href="/contasapagar">
+                  <h3 class="text-center">Contas a Pagar</h3>
+                  <br>
+                  <ul>
+                    <li>Lançamento de notas fiscais</li>
+                    <li>Lançamentos de notas fiscais por XML</li>
+                    <li>Previsões de documentos a pagar</li>
+                    <li>Baixas por Lote</li>
+                    <li>Gestão de Antecipação de valores pagos</li>
+                    <li>Gestão de devoluções de documentos </li>
+                    <li>Gestão de aprovação de documentos a pagar </li>
+                    <li>Gestão de Centro de Custos</li>
+                    <li>Gestão de Retenção de impostos</li>
+                    <li>Cálculo automático de juros e multas</li>
+                    <li>Histórico de LOGs</li>
+                    <li>Emissão de Cheques</li>
+                  </ul>
+                </a>
+              </div>
+              <div class="card col  card-custom">
+                <a class="text-blue" href="/contasareceber">
+                  <h3 class="text-center">Contas a Receber</h3>
+                  <br>
+                  <ul>
+                    <li>Lançamentos de Duplicatas (recebimento automático pelo módulo de vendas)</li>
+                    <li>Baixas por Lote</li>
+                    <li>Integração com CNAB</li>
+                    <li>Gestão de antecipação de valores recebidos</li>
+                    <li>Gestão de devoluções de duplicatas </li>
+                    <li>Gestão de aprovação de documentos a receber </li>
+                    <li>Histórico de LOGs</li>
+                  </ul>
+                </a>
+              </div>
+              <div class="card col  card-custom">
+                <a class="text-blue" href="/RelatorioFinanceiro">
+                  <h3 class="text-center">Relatórios Gerenciais</h3>
+                  <br>
+                  <ul>
+                    <li>Fluxo de Caixa, conciliando os recebimentos e os pagamentos</li>
+                    <li>Relatórios de Documentos Pendentes (por vencimento, por fornecedor, por centro de custo, por
+                      tipo de documento)</li>
+                    <li>Relatórios de Documentos Pagos (por data de pagamento, por fornecedor, por centro de custo, por
+                      banco)</li>
+                    <li>Relatório verificadora de documentos</li>
+                    <li>Relatórios de Antecipações (contas a pagar e cotnas a receber)</li>
+                    <li>Relatório de Devoluções (contas a pagar e contas a receber)</li>
+                    <li>Diário Auxiliar (contas a pagar e contas a receber)</li>
+                    <li>Relatório de Duplicatas Pendentes (por Vencimento, por Cliente, por Tipo de Cobrança, por Data
+                      de Emissão, por Vendedor)</li>
+                    <li>Relatório de Duplicatas Pagos (por data de recebimento, por cliente, por banco)</li>
+                    <li>Relatório verificadora de Duplicatas</li>
+                    <li>Relatório de Frequência de Recebimento</li>
+                    <li>Relatório de duplicatas prorrogadas</li>
+                  </ul>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="compras">
+            <h4 class="text-center">Compras</h4>
+            <div class="row flex">
+              <div class="card col  card-custom">
+                <a class="text-blue" href="/RequisicaoCompras">
+                  <h3 class="text-center">Requisição de Compras</h3>
+                  <br>
+                  <ul>
+                    <li>Solicitação de Compras por usuário</li>
+                    <li>Follow-up de solicitações de compras (pendentes e já compradas)</li>
+                  </ul>
+                </a>
+              </div>
+              <div class="card col  card-custom">
+                <a class="text-blue" href="/PedidoCompras">
+                  <h3 class="text-center">Pedidos de Compras</h3>
+                  <br>
+                  <ul>
+                    <li>Possibilidade de realizar um Pedido a partir de um Orçamento e/ou de uma Requisição de Compra
+                    </li>
+                    <li>Controle e gestão de follow-up</li>
+                    <li>Gestão de aprovação de Pedidos de Compra </li>
+                    <li>Cálculos tributários</li>
+                    <li>Histórico de LOGs</li>
+                    <li>Programar diferentes prazos de entregas</li>
+                    <li>Baixa de Pedidos através do XML do Fornecedor</li>
+                    <li>Validação com Tabela de Preços do Fornecedor</li>
+                    <li>Integração com o Contas a Pagar (previsão, e lançamento oficial pós recebimento)</li>
+                    <li>Integração com Estoque de Materiais</li>
+                  </ul>
+                </a>
+              </div>
+              <div class="card col  card-custom">
+                <a class="text-blue" href="/orcamentos">
+                  <h3 class="text-center">Qualidade</h3>
+                  <br>
+                  <ul>
+                    <li>Inspeção de Recebimento</li>
+                    <li>Amarração de Características/Produtos</li>
+                    <li>Validação das características: valores esperados / valores encontrados</li>
+                    <li>Documentação da Qualidade (possibilidade de armazenar e amarrar ao Recebimento os documentos
+                      inerentes a qualidade)</li>
+                    <li>Gestão e controle de aprovação (com possibilidade de aprovar condicional)</li>
+                  </ul>
+                </a>
+              </div>
+              <div class="card col  card-custom">
+                <a class="text-blue" href="/orcamentos">
+                  <h3 class="text-center">Estoque</h3>
+                  <br>
+                  <ul>
+                    <li>Gestão de Materiais reservados</li>
+                    <li>Gestão de Mínimos e Máximos</li>
+                    <li>Estoque por materiais semelhantes</li>
+                  </ul>
+                </a>
+              </div>
+              <div class="card col  card-custom">
+                <a class="text-blue" href="/orcamentos">
+                  <h3 class="text-center">Relatórios</h3>
+                  <br>
+                  <ul>
+                    <li>Pedidos pendentes</li>
+                    <li>Pedidos por Centro de Custo</li>
+                    <li>Pedidos por Classificação de Compras</li>
+                    <li>Histórico de Compras por Fornecedor / Produto</li>
+                    <li>Ranking de Fornecedor</li>
+                    <li>Ranking de Produtos Comprados</li>
+                    <li>Média anual de Compras (meses e quantidades compradas)</li>
+                    <li>Histórico de Alterações de Preços (baseados nos LOGs)</li>
+                    <li>Relatório de Posição de Estoque</li>
+                    <li>Relatório de Estoque Mínimo</li>
+                    <li>Registro de Inventário</li>
+                  </ul>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
   </div>
   @include('email/email')
 </div>
 <script src="./js/erp/erp.js"></script>
-  @include('footer/footer')
+@include('footer/footer')

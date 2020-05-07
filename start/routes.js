@@ -16,7 +16,7 @@ Route.on('/contasapagar').render('/contasapagar')
 Route.on('/contasareceber').render('/contasareceber')
 Route.on('/RelatorioFinanceiro').render('/RelatorioFinanceiro')
 Route.on('/RequisicaoCompras').render('/RequisicaoCompras')
-
+Route.on('/PedidoCompras').render('/PedidoCompras')
 
 
 
