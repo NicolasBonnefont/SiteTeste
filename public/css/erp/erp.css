@@ -8,7 +8,7 @@
   cursor: pointer;
   max-width: 300px;
   margin: 15px;
-  margin-left: 0;   
+  margin-left: 0;
 }
 .card-custom li{
   size: 2.5rem;
@@ -21,7 +21,7 @@
  display: flex;
  justify-content: center;
  flex:1;
- margin-left: 0;  
+ margin-left: 0;
 }
 .titulos{
   color: #120650;

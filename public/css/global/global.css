@@ -115,3 +115,6 @@ html{
   flex-flow: column;
   align-items: center
 }
+.border-radius{
+  border-radius: 5px;
+ }
