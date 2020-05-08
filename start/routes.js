@@ -17,6 +17,9 @@ Route.on('/contasareceber').render('/contasareceber')
 Route.on('/RelatorioFinanceiro').render('/RelatorioFinanceiro')
 Route.on('/RequisicaoCompras').render('/RequisicaoCompras')
 Route.on('/PedidoCompras').render('/PedidoCompras')
+Route.on('/Qualidade').render('/Qualidade')
+Route.on('/Estoque').render('/Estoque')
+
 
 
 
