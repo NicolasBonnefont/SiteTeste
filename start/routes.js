@@ -19,6 +19,8 @@ Route.on('/RequisicaoCompras').render('/RequisicaoCompras')
 Route.on('/PedidoCompras').render('/PedidoCompras')
 Route.on('/Qualidade').render('/Qualidade')
 Route.on('/Estoque').render('/Estoque')
+Route.on('/RelatorioCompras').render('/RelatorioCompras')
+
 
 
 
