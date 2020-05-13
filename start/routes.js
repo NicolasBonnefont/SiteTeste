@@ -3,7 +3,7 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-Route.on('/').render('/Home')
+Route.on('/').render('/home')
 Route.on('/Empresa').render('/Empresa')
 Route.on('/MORERP').render('/MORERP')
 Route.on('/MORBI').render('/MORBI')
