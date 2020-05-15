@@ -4,7 +4,7 @@
 const Route = use('Route')
 
 Route.on('/').render('/home')
-Route.on('/Empresa').render('/Empresa')
+Route.on('/empresa').render('/empresa')
 Route.on('/MORERP').render('/MORERP')
 Route.on('/MORBI').render('/MORBI')
 Route.on('/MORTEMP').render('/MORTEMP')
