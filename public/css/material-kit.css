@@ -15251,7 +15251,7 @@ h2.title {
 }
 
 .dropdown-menu.dropdown-with-icons .dropdown-item {
-  padding: 0.75rem 1.25rem 0.75rem 0.75rem;
+  /* padding: 0.75rem 1.25rem 0.75rem 0.75rem; */
 }
 
 .dropdown-menu.dropdown-with-icons .dropdown-item .material-icons {
@@ -15304,7 +15304,7 @@ h2.title {
 .dropdown-menu a:focus,
 .dropdown-menu a:active {
   box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
-  background-color: #120650;
+  background-color: #6964831f;
   color: #FFFFFF;
 }
 
