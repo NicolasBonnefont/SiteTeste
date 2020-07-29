@@ -1,6 +1,8 @@
-/* .imgMenu{
-  width: 80px;
-} */
+.imgLogo{
+  width: 60px;
+  border-radius: 5px;
+  padding: 0;
+}
 .menuSolucoes{
   justify-content: center;
 }

@@ -14094,7 +14094,7 @@ textarea {
 .navbar .navbar-brand {
   position: relative;
   color: inherit;
-  height: 50px;
+  /* height: 50px; */
   font-size: 1.125rem;
   line-height: 30px;
   padding: 0.625rem 0;
