@@ -8,6 +8,6 @@
   border-radius: 5px;
 }
 .imgCard{
-  width: 300px;
+  max-width: 300px;
 }
 
