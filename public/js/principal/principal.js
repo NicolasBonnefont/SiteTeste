@@ -21,6 +21,6 @@ $(document).ready(function(){
   });
 });
 function whats(){
-  window.open('https://api.whatsapp.com/send?phone=5511970765656&text=Ol%C3%A1%20!%20Gostaria%20de%20Mais%20Informa%C3%A7%C3%B5es.','_blank');
+  window.open('https://api.whatsapp.com/send?phone=5511970765606&text=Ol%C3%A1%20!%20Gostaria%20de%20Mais%20Informa%C3%A7%C3%B5es.','_blank');
 
 }
