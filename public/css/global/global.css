@@ -1,15 +1,16 @@
-h2{
+h2 {
   font-size: 2.1rem;
 }
 
-.custom{
+.custom {
   size: 15px;
 }
 
-.footer{
+.footer {
   background-color: #eee;
 }
-.card-custom{
+
+.card-custom {
   min-width: 250px;
   margin-left: 0;
   transition: all 0.5s;
@@ -18,21 +19,24 @@ h2{
   max-width: 350px;
 
 }
-.card-custom:hover{
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
+.card-custom:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
   filter: drop-shadow(15px 10px 5px rgba(99, 88, 88, 0.5));
 }
 
-.section{
+.section {
   padding-bottom: 25px;
   padding-top: 25px;
 
 }
-.texto-custom{
-  text-align:left;
+
+.texto-custom {
+  text-align: left;
   font-size: 12px;
 }
-.imgProd{
+
+.imgProd {
   width: 100%;
   border-radius: 25px;
   border: 1px;
@@ -40,81 +44,121 @@ h2{
   border-color: #120650;
 
 }
-.text-black{
+
+.text-black {
   color: black;
 }
-.text-red{
-  color:red;
+
+.text-red {
+  color: red;
 }
-.text-blue{
+
+.text-blue {
   color: #120650;
 }
-.fa{
-  font-size:  1.25rem;
+
+.fa {
+  font-size: 1.25rem;
 }
-.formHome{
+
+.formHome {
   padding-left: 15px;
   padding-top: 35px;
 }
-.buttonHome{
+
+.buttonHome {
   width: 100%;
   background-color: blue;
 }
-.fundoGelo{
+
+.fundoGelo {
   background-color: #eee;
 }
-.fundoBranco{
+
+.fundoBranco {
   background-color: #fff;
 }
-.titulos{
+
+.titulos {
   color: #120650;
   font-size: 2.5rem;
 }
 
-.textoBase{
+.textoBase {
   color: #77788fd1;
 }
-.cardHome{
+
+.cardHome {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
 }
-.contato{
+
+.contato {
   padding: 0 0 0;
   padding-left: 10px;
 }
-.contatoCustom{
-padding-top: 0px;
+
+.contatoCustom {
+  padding-top: 0px;
 }
+
 .info p {
-  color:  #120650;
+  color: #120650;
 }
+
 .form-control {
   /* RETIRAR AS BORDAS DO INPUT*/
-  border: 0;;
+  border: 0;
+  ;
 }
 
-.inputCustom{
+.inputCustom {
   background-size: 1% 100%, 100% 100%;
-  background-image: linear-gradient(to top, #6b6b85ce  2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+  background-image: linear-gradient(to top, #6b6b85ce 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
 }
 
-.topo{
-  height: 40vh;
+.topo {
+  height: 64vh;
 }
-.tituloPrincipal{
+
+.tituloPrincipal {
   justify-content: center;
   display: flex;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
-.menuSolucoes{
+
+.menuSolucoes {
   display: flex;
   flex-flow: column;
   align-items: center
 }
-.border-radius{
+
+.border-radius {
   border-radius: 5px;
- }
+}
+
+.player {
+  min-height: 550px;
+  padding: 50px;
+  background: black;
+  border-radius: 5px;
+}
+
+.divWhats {
+  max-width: 36px;
+  max-height: 36px;
+}
+#linkWhats{
+  cursor: pointer;
+}
+.Contatos{
+  margin-top: -50px;
+}
+.btnEnviar{
+  margin-bottom: 50px;
+}

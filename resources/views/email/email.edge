@@ -23,11 +23,11 @@
               <textarea class="form-control inputCustom" rows="4" id="texto" required></textarea>
             </div>
             <div class="submit text-center">
-              <button type="submit" class="btn btn-primary btn-round">Enviar <i class="fa fa-paper-plane"></i></button>
+              <button type="submit" class="btn btn-primary btn-round btnEnviar">Enviar <i class="fa fa-paper-plane"></i></button>
             </div>
           </form>
         </div>
-        <div class="col-sm-4 ml-auto contatoCustom">
+        <div class="col-sm-4 ml-auto contatoCustom Contatos">
           <div class="info info-horizontal contato">
             <div class="icon icon-primary">
               <i class="material-icons">pin_drop</i>
@@ -51,8 +51,19 @@
                 href="tel:+551123753471">(11) 2375-3471</a>
               </p>
             </div>
-          </div>
-          <div class="info info-horizontal contato">
+
+            <div id="linkWhats" onclick="whats()">
+              <div class="icon icon-primary divWhats">
+                <img src="img/icone/whatsapp.png" alt="Whatssapp">
+              </div>
+              <div class="description">
+                <h4 class="info-title">Whatsapp</h4>
+                <a class="text-blue"target="_blank"
+                 href="https://api.whatsapp.com/send?phone=5511970765656&text=Ol%C3%A1%20!%20Gostaria%20de%20Mais%20Informa%C3%A7%C3%B5es."><u>(11) 97076-5656</u></a>
+              </div>
+            </div>
+
+
             <div class="icon icon-primary">
               <i class="material-icons">mail_outline</i>
             </div>
@@ -63,6 +74,9 @@
               </a>
               <a class="text-blue" href="mailto:suporte@morinfo.com.br" title="">
                 <p><u>suporte@morinfo.com.br</u></p>
+              </a>
+              <a class="text-blue" href="mailto:comercial@morinfo.com.br" title="">
+                <p><u>comercial@morinfo.com.br</u></p>
               </a>
             </div>
           </div>

@@ -1,3 +1,66 @@
-  <!--importação do menu-->
-  @include('navbar/nav')
-  @include('footer/footer')
+@include('navbar/nav')
+
+<link href="css/global/global.css" rel="stylesheet" />
+
+<!--<link href="css/erp/erp.css" rel="stylesheet" />  -->
+
+<link href="css/bi/bi.css" rel="stylesheet" />
+<div class="page-header header-filter topo" data-parallax="true" style="background-image: url('./img/erp.jpeg');"
+  id="Top">
+  <div class="container tex-center">
+    <div class="text-center">
+      <div class="card card-custom">
+        <div class="text-center">
+          <img src="" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main main-raised">
+
+  <div class="card ">
+    <iframe class="player " src="https://www.youtube.com/embed/9PLhyrl8Ewo?autoplay=1;mute=1" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="section fundoGelo border-radius "><br>
+    <div class="cardHome container">
+      <div class="col ">
+        <div class="card cardBi card-custom" style="width: 100%;">
+          <img class="card-img-top" src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" rel="nofollow" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">O que aconteceu?</h4>
+            <p class="card-text">Identifique gargalos, compreenda problemas, visualize os resultados.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card cardBi card-custom" style="width: 100%;">
+          <img class="card-img-top" src="https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" rel="nofollow" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Porque aconteceu?</h4>
+            <p class="card-text">Entenda a sua empresa através dos seus números.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card cardBi card-custom" style="width: 100%;">
+          <img class="card-img-top" src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" rel="nofollow" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">O que pode acontecer?</h4>
+            <p class="card-text">Trace cenários e previsões futuras, identifique e se antecipe a tendencias.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container">
+    @include('email/email')
+  </div>
+
+</div>
+<script src="./js/erp/erp.js"></script>
+@include('footer/footer')
