@@ -21,7 +21,7 @@
   transition: all 0.5s;
   /* cursor: pointer; */
   max-width: 300px;
-  margin: 15px;
+  /* margin: 15px; */
   margin-left: 0;
 }
 .card-custom li{
